@@ -84,8 +84,10 @@ export const StyledBalloon = styled.div`
   animation-fill-mode: ${props => props.animate.hangOnTop ? 'forwards' : 'none'};
   transform-origin:bottom center;
   --balloonDimension: 15vmax; /* 15% of min(viewport width, height) */
-  width: var(--balloonDimension);
-  height: var(--balloonDimension);
+  // width: var(--balloonDimension);
+  // height: var(--balloonDimension);
+  // width: 20;
+  // height: 30;
   border-radius: 100% 100% 15% 100%;
   margin: 0 0 0 25px;
   transform: rotateZ(45deg);
