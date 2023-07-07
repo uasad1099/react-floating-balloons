@@ -18,7 +18,7 @@ export const Balloon = ({msgText, colors, popVolumeLevel, loop, hangOnTop, suppo
 		let t = e.currentTarget;
 		let color = t.getAttribute('color');
 		const burst = new mojs.Burst({
-			radius: { 30: 100 },
+			radius: { 10: 50 },
 			parent: t,
 			count: 10,
 			className: 'show',
