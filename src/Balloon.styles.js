@@ -86,8 +86,8 @@ export const StyledBalloon = styled.div`
   --balloonDimension: 15vmax; /* 15% of min(viewport width, height) */
   // width: var(--balloonDimension);
   // height: var(--balloonDimension);
-  // width: 20;
-  // height: 30;
+     width: 20;
+     height: 30;
   border-radius: 100% 100% 15% 100%;
   margin: 0 0 0 25px;
   transform: rotateZ(45deg);
